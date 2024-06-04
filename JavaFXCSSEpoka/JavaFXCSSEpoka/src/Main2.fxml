@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #00458c;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="347.0" layoutX="146.0" layoutY="127.0" stroke="WHITE" strokeType="INSIDE" width="308.0" />
+      <Label layoutX="146.0" layoutY="80.0" prefHeight="42.0" prefWidth="79.0" text="EPOKA" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="BOTTOM" layoutX="221.0" layoutY="89.0" text="INTERACTIVE SYSTEM" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="186.0" layoutY="161.0" text="Login to your account">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="179.0" layoutY="203.0" mnemonicParsing="false" onAction="#loginwithepokamail" prefHeight="42.0" prefWidth="243.0" style="-fx-background-color: #4d90fe;" text="Login with Epoka Mail" textAlignment="CENTER" textFill="WHITE" />
+      <TextField fx:id="username" layoutX="214.0" layoutY="314.0" promptText="Username">
+         <effect>
+            <Glow level="0.0" />
+         </effect>
+      </TextField>
+      <Button layoutX="343.0" layoutY="416.0" mnemonicParsing="false" onAction="#greenLogin" prefHeight="30.0" prefWidth="79.0" style="-fx-background-color: #35aa47;" text="Login" textFill="WHITE" />
+      <CheckBox depthTest="DISABLE" layoutX="177.0" layoutY="420.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="125.0" style="-fx-border-color: WHITE;" text="Remember me" />
+      <Text fill="GREY" layoutX="179.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Or login with">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="password" layoutX="214.0" layoutY="355.0" />
+   </children>
+</AnchorPane>

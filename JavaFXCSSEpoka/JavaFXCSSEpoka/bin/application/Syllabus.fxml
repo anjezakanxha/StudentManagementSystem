@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="518.0" prefWidth="663.0" style="-fx-background-color: Purple;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <TextArea fx:id="main" layoutX="48.0" layoutY="14.0" prefHeight="30.0" prefWidth="520.0" promptText="Main Course Lecturer and Office Hours:" />
+      <TextField fx:id="second" layoutX="48.0" layoutY="61.0" prefHeight="37.0" prefWidth="520.0" promptText="Second Course Lecturer(s) Office Hours:" />
+      <TextField fx:id="language" layoutX="48.0" layoutY="107.0" prefHeight="37.0" prefWidth="520.0" promptText="Language" />
+      <TextField fx:id="compulsory" layoutX="48.0" layoutY="158.0" prefHeight="37.0" prefWidth="520.0" promptText="Compulsory/Elective:" />
+      <TextField fx:id="study" layoutX="48.0" layoutY="206.0" prefHeight="37.0" prefWidth="520.0" promptText="Study Program" />
+      <TextArea fx:id="description" layoutX="48.0" layoutY="259.0" prefHeight="200.0" prefWidth="520.0" promptText="Course Description" />
+      <Button layoutX="7.0" layoutY="479.0" mnemonicParsing="false" onAction="#previous4" style="-fx-background-color: Yellow;" text="&lt;--Previous Page" />
+   </children>
+</AnchorPane>

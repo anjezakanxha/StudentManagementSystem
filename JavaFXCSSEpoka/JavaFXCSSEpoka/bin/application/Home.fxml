@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="704.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button layoutX="50.0" layoutY="23.0" mnemonicParsing="false" onAction="#profilelog" prefHeight="102.0" prefWidth="573.0" style="-fx-background-color: blue;" text="                                     Profile" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="52.0" layoutY="407.0" mnemonicParsing="false" onAction="#Transcriptlog" prefHeight="102.0" prefWidth="573.0" style="-fx-background-color: green;" text="                                   Transcript" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="50.0" layoutY="274.0" mnemonicParsing="false" onAction="#Interimlog" prefHeight="102.0" prefWidth="573.0" style="-fx-background-color: green;" text="                                      Selected       " textFill="WHITE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button layoutX="50.0" layoutY="147.0" mnemonicParsing="false" onAction="#Courselog" prefHeight="102.0" prefWidth="573.0" style="-fx-background-color: #CF9FFF;" text="                        Interim Grades" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Label layoutX="-23.0" layoutY="-8.0" prefHeight="17.0" prefWidth="47.0" />
+      <Label layoutX="77.0" layoutY="100.0" text="VIEW MORE" textFill="WHITE" />
+      <Label layoutX="78.0" layoutY="345.0" text="VIEW MORE" textFill="WHITE" />
+      <Label layoutX="77.0" layoutY="482.0" text="VIEW MORE" textFill="WHITE" />
+      <Label layoutX="78.0" layoutY="225.0" text="VIEW MORE" textFill="WHITE" />
+      <Label layoutX="512.0" layoutY="339.0" text="Courses" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="64.0" fitWidth="59.0" layoutX="75.0" layoutY="418.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/download.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="65.0" layoutX="81.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/images.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="100.0" layoutX="78.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/download.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="64.0" layoutX="81.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/check-mark-symbol-yes-button-vote-check-box-web-etc-dirty-grunge-hand-drawn-tick-v-with-brush-strokes-vector-illustration-isolated-white-background-mark-graphic-design_503038-1043.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="16.0" fitWidth="168.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/images.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

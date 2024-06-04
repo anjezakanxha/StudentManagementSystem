@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="661.0" style="-fx-background-color: Blue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <TextField fx:id="name" layoutX="83.0" layoutY="70.0" prefHeight="26.0" prefWidth="338.0" promptText="Name" />
+      <TextField fx:id="lastname" layoutX="83.0" layoutY="106.0" prefHeight="26.0" prefWidth="338.0" promptText="Last Name" />
+      <TextField fx:id="birthday" layoutX="83.0" layoutY="140.0" prefHeight="26.0" prefWidth="338.0" promptText="Birthday" />
+      <TextField fx:id="birthplace" layoutX="83.0" layoutY="174.0" prefHeight="26.0" prefWidth="338.0" promptText="Birthplace" />
+      <TextField fx:id="fname" layoutX="83.0" layoutY="208.0" prefHeight="26.0" prefWidth="338.0" promptText="Father Name" />
+      <TextField fx:id="mname" layoutX="83.0" layoutY="239.0" prefHeight="26.0" prefWidth="338.0" promptText="Mother Name" />
+      <TextField fx:id="id" layoutX="83.0" layoutY="270.0" prefHeight="26.0" prefWidth="338.0" promptText="ID" />
+      <TextField fx:id="date" layoutX="83.0" layoutY="396.0" prefHeight="26.0" prefWidth="338.0" promptText="Date Registration" />
+      <TextField fx:id="cgpa" layoutX="83.0" layoutY="456.0" prefHeight="26.0" prefWidth="338.0" promptText="CGPA" />
+      <TextField fx:id="status" layoutX="83.0" layoutY="426.0" prefHeight="26.0" prefWidth="338.0" promptText="Status" />
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="172.0" layoutY="66.0" stroke="#fff0f0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Profile" textAlignment="JUSTIFY" underline="true" wrappingWidth="79.27474594116211" />
+      <ImageView fitHeight="111.0" fitWidth="148.0" layoutX="547.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/download.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="20.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" />
+      <Text fill="WHITE" layoutX="8.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name:" />
+      <Text fill="WHITE" layoutX="14.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthday:" />
+      <Text fill="WHITE" layoutX="9.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthplace:" />
+      <Text fill="WHITE" layoutX="3.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Father Name:" />
+      <Text fill="WHITE" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mother Name:" />
+      <Text fill="WHITE" layoutX="30.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" />
+      <Text fill="WHITE" layoutX="-2.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registerd date:" />
+      <Text fill="WHITE" layoutX="19.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status:" />
+      <Text fill="WHITE" layoutX="21.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CGPA:" />
+      <Text fill="WHITE" layoutX="15.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Course:" />
+      <TextField fx:id="course" layoutX="83.0" layoutY="302.0" prefHeight="26.0" prefWidth="338.0" promptText="Course" />
+      <Text fill="WHITE" layoutX="7.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Year:" />
+      <Text fill="WHITE" layoutX="10.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Semester:" />
+      <TextField fx:id="year" layoutX="83.0" layoutY="335.0" prefHeight="26.0" prefWidth="338.0" promptText="Current Year" />
+      <TextField fx:id="semester" layoutX="83.0" layoutY="367.0" prefHeight="26.0" prefWidth="338.0" promptText="Semester" />
+      <Button layoutX="8.0" layoutY="7.0" mnemonicParsing="false" onAction="#BACK2" prefHeight="32.0" prefWidth="77.0" style="-fx-background-color: PINK;" text="&lt;--Back" />
+      <Button fx:id="Button3" layoutX="574.0" layoutY="137.0" mnemonicParsing="false" onAction="#submit3" style="-fx-background-color: PINK;" text="Submit" />
+   </children>
+</Pane>
